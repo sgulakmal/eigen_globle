@@ -1,0 +1,86 @@
+.technology-area{
+	.section-title-pr{
+		p{
+			margin-left: 45px;
+		}
+	}
+	.technology-service{
+		border-bottom:1px solid #e7e7e7;
+		padding-bottom: 18px;
+		margin-bottom: 18px;
+		&:last-child{
+			margin-bottom: 0;
+			padding-bottom: 0;
+			border-bottom:1px solid transparent;
+		}
+		.technology-icon{
+			margin-right: 22px;
+			img{
+				width: 100%;
+			}
+		}
+		.content{
+			p{
+				margin-bottom: 6px;
+			}
+		}
+	}
+}
+
+.accordion-wrapper{
+	.accordion-item{
+		margin-bottom: 16px;
+		border:1px solid #eeeeef;
+		border-radius: 5px;
+		background-color:#ffffff;
+		.accordion-title{
+			color: #050506;
+			font-size: 18px;
+			font-weight: 600; 
+			padding: 10px 30px;
+
+		}
+		.accordion-title.active{
+			color: var(--theme-color);
+			background-color: #f5f8ff;
+		}
+		.accordion-body{
+			padding: 0px 30px;
+			p{
+				font-size: 16px;
+				line-height: 32px;
+				padding-bottom: 9px;
+				padding-top: 9px;
+			}
+		}
+	}
+	.accordion-title{
+		width: 100%;
+		text-align: left;
+		position: relative;
+		background: transparent;
+		border: transparent;
+		&:before{
+		  width: 8px;
+		  height: 8px;
+		  border-right: 1px solid #151517;
+		  border-bottom: 1px solid #151517;
+		  position: absolute;
+		  right: 26px;
+		  content: " ";
+		  top: 23px;
+		  transform: rotate(45deg);
+		  -webkit-transition: all 0.2s ease-in-out;
+		  -moz-transition: all 0.2s ease-in-out;
+		  transition: all 0.2s ease-in-out;
+		  
+		}
+	}
+}
+.technology-area-2{
+ .text-content{
+ 	padding-right: 23px;
+ }
+}
+
+

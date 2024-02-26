@@ -1,0 +1,12 @@
+$xl_device : 'only screen and (max-width: 1199.98px)';
+$lg_device : 'only screen and (max-width: 991.98px)';
+$md_device:'only screen and (max-width: 767.98px)';
+$sm_device:'(max-width: 575.98px)';
+$sm_mobile: 'only screen and (max-width: 479px)';
+
+$min_xl_device : 'only screen and (min-width: 1199.98px)';
+$min_lg_device : 'only screen and (min-width: 991.98px)';
+$min_md_device:'only screen and (min-width: 767.98px)';
+$min_sm_device:'(min-width: 575.98px)'; 
+
+$min_md_max_lg_device : 'only screen and (min-width: 767.98px) and (max-width: 991.98px)';

@@ -1,0 +1,24 @@
+.community-area{
+	position: relative;
+}
+.community-thumb{
+	position: relative;
+	.play-button{
+		position: absolute;
+		top: 7%;
+		right: 4%;
+	}
+}
+.community-content{
+	.section-title{
+		margin-bottom: 40px;
+	}
+	.circle-progress {
+		position: relative;
+		min-width: 113px;
+		width: 113px;
+	}
+}
+
+
+

@@ -1,0 +1,22 @@
+.smiler-content{
+	.text-sm{
+		margin-bottom: 30px;
+	    @media #{$md_device}{
+	        margin-bottom: 16px;
+	    }
+	}
+}
+.service-details-wrap{
+	background-color:#fff; 
+	position: relative;
+	z-index: 10;
+	padding-bottom: 15px; 
+	.thumb{
+		margin-bottom: 15px;
+		padding:50px; 
+		@media #{$lg_device}{
+			padding:30px; 
+		}
+		padding-bottom: 0; 
+	}
+}

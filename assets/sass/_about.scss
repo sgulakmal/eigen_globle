@@ -1,0 +1,42 @@
+.about-content{
+	.sub-title{
+		font-weight: 600;
+		padding-top: 30px;
+		padding-bottom: 15px;
+		 @media #{$lg_device}{
+		 	padding-top: 20px;
+		}
+		 @media #{$md_device}{
+		 	padding-top: 15px;
+		}
+		 @media #{$sm_device}{
+		}
+	}
+}
+.about-area-2{
+	.section-title{
+		margin-bottom: 30px;
+	}
+}
+.round-check-list{
+	margin-bottom: 42px;
+	.check-item{
+		position: relative;
+		padding-left: 30px;
+		margin-bottom: 2px;
+		&:before{
+			content: "\f058";
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: #007bff;
+		}
+	}
+}
+.about-btn{
+	.btn{
+		padding: 16px 37px;
+	}
+}

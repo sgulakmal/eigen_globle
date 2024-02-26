@@ -1,0 +1,55 @@
+//team area
+.team-area{
+    .team-item{
+       position: relative;
+       overflow: hidden;
+       .thumb{
+        img{
+            width: 100%;
+        }
+       } 
+    .team-content{
+        background: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 23px 84px 23px 20px;
+        .team-name{
+            a{
+                color: var(--heading-color);
+                text-decoration: none;
+            }
+        }
+        p{
+            padding-top: 5px;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+    }
+        .custom-badge{
+            position: absolute;
+            right: 0px;
+            bottom: 105px;
+            transform: rotate(-90deg);
+            transform-origin: right bottom;
+            &:before{
+                left: 93px;
+                bottom: 100%;
+                border-bottom: 12px solid #000;
+                border-left: 12px solid transparent;
+                top: auto;
+                border-top: transparent;
+                border-right: transparent;
+            }
+        }
+        &:hover{
+           .custom-badge{
+             background:#3d72fc;
+                &:before{
+                    border-bottom-color:#3d72fc;
+                }
+           } 
+        }
+    }
+}

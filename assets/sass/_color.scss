@@ -1,0 +1,35 @@
+.bg-black{
+	background: #000;
+}
+.bg-primary{
+	background: #3d72fc;
+}
+.bg-gray {
+	background: #f1f3f8;
+}
+.bg-dark{
+	background-color: #070a11 !important;
+}
+.text-primary {
+	color: #3d72fc;
+}
+.text-white{
+	color: #fff;
+}
+.text-gray{
+	color: #b4b4b4;
+}
+.text-secondary{
+	color: #798191;
+}
+.text-theme{
+	color: var(--theme-color);
+}
+.text-dark {
+	color: #050506 !important; 
+}
+.reset-bg{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

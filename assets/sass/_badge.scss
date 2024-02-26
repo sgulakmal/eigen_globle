@@ -1,0 +1,34 @@
+.custom-badge{
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 22px;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    transition: all 0.4s;
+    display: inline-block;
+    &:before{
+        content: "";
+        position: absolute;
+        left: 93px;
+        width: 0;
+        height: 0;
+        border-top: 12px solid #000;
+        border-right: 12px solid transparent;
+        transition: all 0.4s;
+        left: 0;
+        top: 100%;
+        border-left: none;
+        border-bottom: none;
+    }
+    &:hover{
+    text-decoration: none; 
+    background:#3d72fc;
+    color: #fff;
+        &:before{
+            border-top-color:#3d72fc;
+        }
+   }
+}

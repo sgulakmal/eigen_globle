@@ -1,0 +1,80 @@
+svg.radial-progress {
+  height: auto;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke-dashoffset: 219.91148575129; 
+  stroke-width: 1px; 
+}
+svg.radial-progress circle.incomplete { stroke: #dfdfdf; }
+svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; stroke: #5784f8;} 
+svg.radial-progress text {
+  fill: #050506;
+  text-anchor: middle;
+}
+.circle-progress{
+  position: relative;
+  min-width: 120px;
+  width: 120px; 
+  @media #{$lg_device}{ 
+    min-width: 95px;
+    width: 95px;   
+  }
+  .percentage{
+    position: absolute;
+    left: calc(50% + 3px);
+    top: calc(50% + 3px); 
+    transform:translate(-50%, -50%);
+    color: #050506;
+    font-size: 32px;
+    font-weight:600;
+    @media #{$lg_device}{ 
+      font-size:25px;
+    }
+    small{
+      font-size: 18px;
+      font-weight: bold;
+      color: #798191; 
+      @media #{$lg_device}{ 
+        font-size: 15px; 
+      }
+    }
+  }
+}
+.progress-item{
+  .progress-content{ 
+      margin-left: 25px;
+      @media #{$lg_device}{
+        margin-left: 15px; 
+      }
+      p{
+        font-size: 18px;
+        color: #798191;
+        line-height: 24px;
+        margin-bottom: 7px;
+      }
+      h4{
+        font-size: 24px;
+        line-height: 28px;
+        color: #050506;
+        @media #{$lg_device}{  
+          font-size: 21px;
+          line-height: 27px;
+        }
+      }
+  }
+}
+.progress-wrapper{
+  .progress-item{
+    border-bottom:1px solid #e7e7e7;
+    margin-bottom: 24px;
+    padding-bottom: 24px; 
+    &:last-child{
+      border-bottom:none; 
+      padding-bottom: 0;
+      margin-bottom: 0;
+    }
+  }
+}

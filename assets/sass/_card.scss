@@ -1,0 +1,141 @@
+.card-style-2{
+	.title{
+		font-size:50px;
+		@include transition(all ease-in 0.25s);
+		@media #{$lg_device}{
+			font-size:30px;
+		}
+		@media #{$sm_mobile}{
+			font-size:2px;
+		}
+	}
+	.text-content{
+		a{
+			.sama{
+				color: #fff;
+				text-align: center;
+				
+			}
+		}
+	}
+}
+.testimonial-card{ 
+	background-color:#fff;
+	padding:101px 64px;
+	@media #{$lg_device}{ 
+		padding: 68px 42px;	
+	}
+	.author-content{
+		.thumb{
+			border-radius:50%;
+			
+		}
+		.quote-thumb{
+			margin-bottom: 20px;
+		}
+		.title{
+			color: #050506;
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		p{
+			font-size: 16px;
+			font-weight: 600;
+			line-height: 21px;
+		}
+	}
+	.text-content{
+		font-size:32px;
+		line-height: 55px;
+		color: #050506;
+		font-weight: 400;
+		@media #{$lg_device}{
+			font-size: 26px;
+			line-height: 47px;
+		}
+	}
+}
+.testimonial-card-2{
+	padding: 0;
+	.row{
+		margin: 0;
+	}
+	.author-wrapper{
+		@media #{$min_sm_device}{
+			padding-left: 15px;
+			position: relative;
+			padding-bottom: 75px;
+			padding-top: 75px;
+		}
+		@media #{$sm_device}{
+			padding-top: 60px; 
+		}
+		.social-icons{
+			@media #{$min_sm_device}{
+				position: absolute;
+				left: 14px;
+				bottom: 43px;
+			}
+			@media #{$sm_device}{
+			justify-content: center;
+			margin-top: 10px;
+			}
+			li{
+				margin-right: 18px;
+				&:last-child{
+					margin-right: 0;
+				}
+				a{
+					color: #b7b7b7;
+					&:hover{
+						color: #3d72fc;
+					}
+				}
+			}
+		}
+	}
+	.author-col{
+		@media #{$min_sm_device}{
+			border-right:1px solid #f1f5ff;
+		}
+	}
+	.text-content{
+		padding:40px 10px;
+		@media #{$sm_device}{
+			border-top:1px solid #f1f5ff;
+			padding:17px 10px 40px 10px;
+		}
+		p{
+			font-size: 23px;
+			line-height: 41px;
+			font-weight: 500;
+			color: #798191;
+		}
+	}
+	.author-content{
+		.title{
+			font-size: 18px;
+		line-height: 24px;
+		}
+	}
+
+}
+.quote-thumb{
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+	.quote-icon{
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top: -20px;
+		z-index: -2;
+	}
+}
+.ahouthor-wrap{
+	.ahouthor-name{
+		background: #007bff;
+		padding: 8px 40px;
+		margin-right: 46px;
+	}
+}

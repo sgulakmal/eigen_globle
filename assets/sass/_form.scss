@@ -1,0 +1,36 @@
+.form-group{
+	label{
+		font-size: 16px;
+		line-height: 25px;
+		font-weight: 600;
+		color: #050506;
+		display: block;
+		margin-bottom: 8px;  
+	}
+}
+.form-control {
+	border: 1px solid #f4f4f4;
+	width: 100%;
+	border-radius: 0;
+	height: 55px;
+	padding: 8px 30px;
+	&:focus {
+		box-shadow: none; 
+		border-color:#3d72fc; 
+	}
+}
+textarea.form-control{ 
+	height: auto; 
+	padding: 26px 30px;
+}
+.map-wrapper{
+	height: 700px; 
+	width: 100%;
+	@media #{$lg_device}{
+		height: 450px; 
+	}@media #{$md_device}{
+		height: 350px; 
+	}@media #{$sm_device}{
+		height: 250px;
+	}
+} 

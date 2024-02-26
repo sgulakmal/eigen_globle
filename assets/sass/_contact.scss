@@ -1,0 +1,32 @@
+.contact-padding{
+	padding: 110px 100px;
+    @media #{$md_device}{
+        padding: 60px 44px;
+    }
+}
+.contact-wrapper{
+	.section-title{
+		h4{
+			font-size: 18px;
+			line-height: 28px;
+			color: #050506;
+			margin-bottom: 12px;
+		}
+		h2{
+			font-size: 32px;
+			line-height: 42px;
+			text-transform: uppercase;
+			margin-bottom: 2px;
+			span{
+			font-size: 32px;
+			line-height: 42px;
+			}
+		}
+	}
+}
+.contact-info{
+	color: #777777;
+	span{
+		color: #3d72fc;
+	}
+}

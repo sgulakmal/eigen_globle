@@ -1,0 +1,16 @@
+.testimonial-area{
+	position: relative;
+	z-index: 5;
+	.parallax-bg{
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 80%;
+		width: 100%;
+		z-index: -3;
+		@media #{$lg_device}{ 
+	        height: 70%;  
+	    }
+
+	}
+}
